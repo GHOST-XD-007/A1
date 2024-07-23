@@ -1,4 +1,16 @@
 def M1():
+    browser_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
+    device_types = ["Windows NT 10.0", "Macintosh", "Android 12", "Android 11", "Linux x86_64"]
+    device_models = ["SM-G991U", "SM-G935F", "SM-S906B", "SM-N976Q", "SM-G970F"]
+    firefox_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
+    browser_version = random.choice(browser_versions)
+    device_type = random.choice(device_types)
+    device_model = random.choice(device_models)
+    firefox_version = random.choice(firefox_versions)
+    user_agent = f"Mozilla/5.0 ({device_type}; {device_model}; rv:{browser_version}) Gecko/20100101 Firefox/{firefox_version}"
+    return user_agent
+
+def M2():
     END = "[FBAN/FB4A;FBAV/437.0.0.35.116;FBBV/527644830;FBDM/{density=2.75,width=1080,height=2177};FBLC/fa_IR;FBRV/0;FBCR/Irancell;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/2209116AG;FBSV/12;FBOP/1;FBCA/arm64-v8a:;]"
     ua = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";"+END
     return ua
