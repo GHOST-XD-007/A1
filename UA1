@@ -1,4 +1,4 @@
 def M1():
-    END = "[FBAN/Orca-Android;FBAV/240.0.322.659;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/259018487;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-A705FN/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2198};FB_FW/1;]"
+    END = "[FBAN/FB4A;FBAV/206.0.0.81.378;FBBV/16183038;FBDM/{density=2.675,width=1080,height=2093};FBLC/pt_BR;FBCR/Total Wireless;FBMF/Realme;FBBD/Realme;FBPN/com.facebook.katana;FBDV/RMX1992;FBSV/10.1;nullFBCA/armeabi-v7a:armeabi;]"
     ua = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";"+END
     return ua
