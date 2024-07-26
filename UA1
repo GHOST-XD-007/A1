@@ -1,5 +1,4 @@
 def M1():
-    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))
-    b = ";[FBAN/FB4A;FBAV/270.0.0.57.127;FBBV/214125760;FBDM/{density=1.5,width=480,height=854};FBLC/en_US;FBRV/214902642;FBCR/Qlink;FBMF/ZTE;FBBD/ZTE;FBPN/com.facebook.katana;FBDV/N9137;FBSV/7.1.1;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
-    ua = a+b
+    END = "[FBAN/Orca-Android;FBAV/430.0.0.69.435;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/37757388;FBCR/Cable & Wireless;FBMF/Xiaomi;FBBD/Redmi;FBDV/12 Pro;FBSV/13.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=4.0,width=1440,height=3200};FB_FW/1;FBRV/57785702;]"
+    ua = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+END
     return ua
