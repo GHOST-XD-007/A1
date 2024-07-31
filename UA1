@@ -2,27 +2,27 @@ def X1():
     model2 = f"Redmi Note {random.randint(3,9)} Pro"
     a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = f"[FBAN/FB4A;FBAV/{random.randint(11,77)}.0.0.{random.randrange(9,49)}{random.randint(11,77)};FBBV/{random.randint(1111111,7777777)}"
-    c = ";[FBAN/Orca-Android;FBAV/196.0.0.73;FBPN/com.facebook.orca;FBLC/sh_SP;FBBV/81690475;FBCR/Page Plus Cellular;FBMF/Samsung;FBBD/Samsung;FBDV/SM-A260F;FBSV/10.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.5,width=1186,height=2103};FB_FW/1;FBRV/56404079;]"
+    c = ";[FBAN/FB4A;FBAV/196.0.0.70;FBBV/53452097;FBDM/{density=1.5,width=1124,height=2107};FBLC/en_ZA;FBCR/Google Wireless;FBMF/Realme;FBBD/Realme;FBPN/com.facebook.katana;FBDV/RMX3370;FBSV/10.0;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b+c
     return ua
 def X2(): 
     model2 = f"Redmi Note {random.randint(3,9)} Pro"
     a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = f"[FBAN/FB4A;FBAV/{random.randint(11,77)}.0.0.{random.randrange(9,49)}{random.randint(11,77)};FBBV/{random.randint(1111111,7777777)}"
-    c = ";[FBAN/Orca-Android;FBAV/196.0.0.61;FBPN/com.facebook.orca;FBLC/is_IS;FBBV/33204341;FBCR/Du;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2145;FBSV/13.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.75,width=1273,height=2339};FB_FW/1;FBRV/52590590;]"
+    c = ";[FBAN/FB4A;FBAV/196.0.0.26;FBBV/35676770;FBDM/{density=2.75,width=962,height=2163};FBLC/uk_UA;FBCR/Walmart Family Mobile;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1881;FBSV/14.1;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b+c
     return ua
 def X3(): 
     model2 = f"Redmi Note {random.randint(3,9)} Pro"
     a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = f"[FBAN/FB4A;FBAV/{random.randint(11,77)}.0.0.{random.randrange(9,49)}{random.randint(11,77)};FBBV/{random.randint(1111111,7777777)}"
-    c = ";[FBAN/Orca-Android;FBAV/196.0.0.43;FBPN/com.facebook.orca;FBLC/de_DE;FBBV/12596962;FBCR/Plus;FBMF/Realme;FBBD/Realme;FBDV/RMX3521;FBSV/11.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1020,height=2230};FB_FW/1;FBRV/29488493;]"
+    c = ";[FBAN/FB4A;FBAV/196.0.0.44;FBBV/74013234;FBDM/{density=1.5,width=867,height=2305};FBLC/iw_IL;FBCR/Cable & Wireless;FBMF/Vivo;FBBD/Vivo;FBPN/com.facebook.katana;FBDV/V1814A;FBSV/7.0;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b+c
     return ua
 def X4(): 
     model2 = f"Redmi Note {random.randint(3,9)} Pro"
     a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = f"[FBAN/FB4A;FBAV/{random.randint(11,77)}.0.0.{random.randrange(9,49)}{random.randint(11,77)};FBBV/{random.randint(1111111,7777777)}"
-    c = ";[FBAN/Orca-Android;FBAV/196.0.0.46;FBPN/com.facebook.orca;FBLC/en_US;FBBV/24915614;FBCR/Bouygues Telecom;FBMF/Xiaomi;FBBD/Redmi;FBDV/2203121C;FBSV/12.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.75,width=1238,height=2140};FB_FW/1;FBRV/13977928;]"
+    c = ";[FBAN/FB4A;FBAV/196.0.0.68;FBBV/67990919;FBDM/{density=1.0,width=1145,height=1997};FBLC/ro_RO;FBCR/Tracfone;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X682C;FBSV/9.0;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b+c
     return ua
