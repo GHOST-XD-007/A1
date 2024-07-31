@@ -1,21 +1,21 @@
 ugen=[]
 for generate in range(1000):
     a=random.randrange(6, 13)
-    b=random.randrange(10, 13)
+    b=random.randrange(6, 9)
     c=random.randrange(7, 13)
     c=random.randrange(73,100)
     d=random.randrange(4200,4900)
     e=random.randrange(40,150)
-    uaku=f'Mozilla/5.0 (Linux; Android {a}; Redmi Note {b} Pro) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
+    uaku=f'Mozilla/5.0 (Linux; Android {a}; Samsung Galaxy Note {b} Pro) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
     ugen.append(uaku)
 for generate in range(1000):
     a=random.randrange(6, 13)
-    b=random.randrange(10, 13)
+    b=random.randrange(21, 24)
     c=random.randrange(7, 13)
     c=random.randrange(73,100)
     d=random.randrange(4200,4900)
     e=random.randrange(40,150)
-    uaku=f'Mozilla/5.0 (Linux; Android {a}; Redmi {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
+    uaku=f'Mozilla/5.0 (Linux; Android {a}; Samsung Galaxy S{b} Ultra) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
     ugen.append(uaku)
 
 
@@ -24,6 +24,6 @@ def M1():
     model2 = f"Redmi Note {random.randint(3,9)} Pro"
     a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = f"[FBAN/FB4A;FBAV/{random.randint(11,77)}.0.0.{random.randrange(9,49)}{random.randint(11,77)};FBBV/{random.randint(1111111,7777777)}"
-    c = ";[FBAN/Orca-Android;FBAV/196.0.0.73;FBPN/com.facebook.orca;FBLC/sh_SP;FBBV/81690475;FBCR/Page Plus Cellular;FBMF/Samsung;FBBD/Samsung;FBDV/SM-A260F;FBSV/10.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.5,width=1186,height=2103};FB_FW/1;FBRV/56404079;]"
+    c = ";[FBAN/FB4A;FBAV/196.0.0.70;FBBV/53452097;FBDM/{density=1.5,width=1124,height=2107};FBLC/en_ZA;FBCR/Google Wireless;FBMF/Realme;FBBD/Realme;FBPN/com.facebook.katana;FBDV/RMX3370;FBSV/10.0;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b+c
     return ua
