@@ -10,7 +10,7 @@ def X2():
     a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = f"[FBAN/FB4A;FBAV/{random.randint(11,77)}.0.0.{random.randrange(9,49)}{random.randint(11,77)};FBBV/{random.randint(1111111,7777777)}"
     c = ";[FBAN/Orca-Android;FBAV/196.0.0.48;FBPN/com.facebook.orca;FBLC/mk_MK;FBBV/49526731;FBCR/MTA Wireless;FBMF/Realme;FBBD/Realme;FBDV/RMX3151;FBSV/14.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.75,width=1247,height=2026};FB_FW/1;FBRV/22119642;]"
-    ua = b+c
+    ua = a+b+c
     return ua
 def X3(): 
     model2 = f"Redmi Note {random.randint(3,9)} Pro"
