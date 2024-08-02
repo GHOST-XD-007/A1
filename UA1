@@ -9,7 +9,7 @@ def X2():
     model2 = f"Redmi Note {random.randint(3,9)} Pro"
     a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = f"[FBAN/FB4A;FBAV/{random.randint(11,77)}.0.0.{random.randrange(9,49)}{random.randint(11,77)};FBBV/{random.randint(1111111,7777777)}"
-    c = ";[FBAN/Orca-Android;FBAV/196.0.0.65;FBPN/com.facebook.orca;FBLC/fr_CA;FBBV/69567623;FBCR/Cellcom;FBMF/Realme;FBBD/Realme;FBDV/RMX3430;FBSV/9.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=890,height=2340};FB_FW/1;FBRV/23424628;]"
+    c = ";[FBAN/FB4A;FBAV/62.0.0.42.77;FBBV/21376152;FBDM/{density=1.5,width=800,height=1280};FBLC/en_US;FBCR/Mobitel LK;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T285YD;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b+c
     return ua
 def X3(): 
