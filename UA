@@ -15,6 +15,6 @@ def M1():
     model2 = f"Redmi Note {random.randint(3,9)} Pro"
     a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = f"[FBAN/FB4A;FBAV/{random.randint(11,77)}.0.0.{random.randrange(9,49)}{random.randint(11,77)};FBBV/{random.randint(1111111,7777777)}"
-    c = ";[FBAN/FB4A;FBAV/196.0.0.70;FBBV/53452097;FBDM/{density=1.5,width=1124,height=2107};FBLC/en_ZA;FBCR/Google Wireless;FBMF/Realme;FBBD/Realme;FBPN/com.facebook.katana;FBDV/RMX3370;FBSV/10.0;nullFBCA/armeabi-v7a:armeabi;]"
+    c = ";[FBAN/FB4A;FBAV/196.0.0.46;FBBV/76352629;FBDM/{density=1.75,width=981,height=2085};FBLC/de_CH;FBCR/Du;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X608;FBSV/10.1;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b+c
     return ua
