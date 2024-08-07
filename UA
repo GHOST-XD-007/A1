@@ -1,5 +1,5 @@
 ugen=[]
-for generate in range(1000):
+for generate in range(10000):
     a=random.randrange(6, 13)
     b=random.randrange(1, 13)
     c=random.randrange(7, 13)
